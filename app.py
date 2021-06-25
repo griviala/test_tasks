@@ -6,7 +6,7 @@ from models.task import Task
 app = Flask(__name__)
 app.config["CACHE_TYPE"] = "null"
 
-api = Api(app, prefix='/api', title="To-do app", description="Backend для простого To-do приложения", version="1.0",
+api = Api(app, prefix='/api', title="To Do app", description="Backend для простого To Do приложения", version="1.0",
           validate=True)
 
 api.add_namespace(tasks_ns)

@@ -1,4 +1,4 @@
-## Backend для простого To-do приложения с использованием [Flask](https://flask.palletsprojects.com/), [Flask-RESTPlus](https://flask-restplus.readthedocs.io/en/stable/index.html) и [peewee](http://docs.peewee-orm.com/)
+## Backend для простого To Do приложения с использованием [Flask](https://flask.palletsprojects.com/), [Flask-RESTPlus](https://flask-restplus.readthedocs.io/en/stable/index.html) и [peewee](http://docs.peewee-orm.com/)
 
 ---
 
