@@ -69,7 +69,7 @@ class TaskTest(TestCase):
 
     def test_j(self):
         with app.test_client() as client:
-            r = client.delete('{}/api/task/{}/'.format(testValue.task_bad))
+            r = client.delete('/api/task/{}/'.format(testValue.task_bad))
             self.assertEqual(r.status_code, 404)
 
     def test_k(self):
